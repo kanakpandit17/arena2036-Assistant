@@ -1,0 +1,24 @@
+[project]
+name = "virtual-assistant-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb",
+    "fastapi>=0.116.1",
+    "ipykernel>=6.29.5",
+    "langchain-community",
+    "langchain-groq>=0.3.6",
+    "langchain-huggingface",
+    "langdetect>=1.0.9",
+    "openai>=1.97.0",
+    "python-dotenv",
+    "rapidfuzz>=3.13.0",
+    "regex>=2024.11.6",
+    "scrapegraphai",
+    "scrapy>=2.13.3",
+    "sentence-transformers>=5.0.0",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.35.0",
+]
